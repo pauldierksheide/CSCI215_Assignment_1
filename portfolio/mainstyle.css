@@ -1,0 +1,77 @@
+@media screen and (max-width: 600px) {
+    .picture {
+        display: inline-block;
+    }
+}
+
+#headerSection {
+    background-color: #3482c1;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    list-style: none;
+    font-family: "Avenir Next";
+}
+
+.name {
+    font-family: "Avenir Next";
+    font-size: 70px;
+    color: white;
+    margin: 0px;
+    line-height: 95%;
+}
+
+.subheader {
+    font-family: "Avenir Next";
+    font-size: 16px;
+    display: block;
+    margin-top: 0px;
+    color: white;
+}
+
+.navigation {
+    background-color: #3482c1;
+    color: white;
+    font-family: "Avenir Next";
+    font-size: 13px;
+}
+
+.picture {
+    width: 330px;
+    height:500px;
+    padding-right: 50px;
+    float: left;
+}
+.info {
+    background-color: #3482c1;
+    color: white;
+    font-family: "Avenir Next";
+    font-size: 14px;
+}
+
+body {
+    background-color: snow;
+    margin-bottom: 100px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: lightgray;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
